@@ -1,11 +1,20 @@
+# NixOS
+
+## home-manager
+
+This appears to be _the_ way to handle user environments in the Nix ecosystem,
+and allows some very clean user-defined package management etc. I can see this
+being very good for having privileged and non-privileged accounts and defining
+the bounds in which they can work nice and easily.
+
 ## Fonts
 
 Still not sure what the problem with fonts are, at least in Alacritty. I can
 get `CaskaydiaCove Nerd Font` to install fine, although `CommitMono` doesn't
 seem to have an associated package.
 
-  I think for the latter I'm going to have to open an issue on the Github
-  pointing this out, since I really like the font!
+I think for the latter I'm going to have to open an issue on the Github
+pointing this out, since I really like the font!
 
 ## Neovim
 
@@ -29,3 +38,9 @@ nix-shell -p gcc
 
 Once you're in there, open up an instance of Neovim and Treesitter should carry
 on as normal (without any errors).
+
+---
+
+Another way to do this would be to have a flake that's part of the `nvim`
+directory and ensure that it has `gcc` present at the time. So you can clone
+the `nvim` repository, load the flake, and then compile Treesitter happily.
