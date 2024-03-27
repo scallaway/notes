@@ -1,0 +1,11 @@
+{
+  "accentColor": "",
+  "cssTheme": "Minimal",
+  "textFontFamily": "CommitMono",
+  "interfaceFontFamily": "CommitMono",
+  "monospaceFontFamily": "CommitMono",
+  "enabledCssSnippets": [
+    "line-length"
+  ],
+  "baseFontSize": 18
+}

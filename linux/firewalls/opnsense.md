@@ -4,8 +4,7 @@
 
 ### Network Isolation
 
-If you want to maintain as much network isolation as possible, then a secure
-way to set this up is through the following two rules:
+If you want to maintain as much network isolation as possible, then a secure way to set this up is through the following two rules:
 
 1. A rule that allows access to the DNS server on the LAN interface
   - Interface -> LAN
@@ -21,4 +20,4 @@ way to set this up is through the following two rules:
   - Destination/Invert -> checked
   - Destination -> {your alias}
 
-ENSURE THAT THE DNS ENTRY IS FIRST IN THE LIST!
+**ENSURE THAT THE DNS ENTRY IS FIRST IN THE LIST!**

@@ -1,6 +1,4 @@
-# ufw
-
-## Default configuration
+# Default configuration
 
 There's a chance that enabling this with the default configuration can cause
 problems with the Docker internal network. This can also cause problems with
