@@ -1,0 +1,1 @@
+This is the way that Windows manages multiple Operating System installations within the one machine. Another example would be [Grub](grub.md)

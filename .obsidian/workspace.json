@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux/distros/proxmox/maintenance.md",
+                "file": "linux/distros/nixos/setup.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "ef53cdac0b49a0e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tools/git.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "linux/distros/proxmox/maintenance.md",
+                "file": "tools/git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "linux/distros/proxmox/maintenance.md",
+                "file": "tools/git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux/distros/proxmox/maintenance.md"
+                "file": "tools/git.md"
               }
             }
           }
@@ -146,15 +159,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1f3f7b60024dc793",
+  "active": "ef53cdac0b49a0e8",
   "lastOpenFiles": [
-    "linux/distros/nixos/usage.md",
+    "linux/firewalls/opnsense.md",
+    "tools/git.md",
+    "windows/Storage Pools.md",
+    "2024-04-03.md",
+    "windows/installation.md",
+    "windows/boot-manager.md",
+    "linux/distros/grub.md",
+    "windows/intro.md",
     "linux/distros/nixos/setup.md",
+    "linux/distros/nixos/neovim.md",
+    "linux/distros/nixos/usage.md",
+    "windows",
+    "linux/distros/proxmox/maintenance.md",
     "languages/python.md",
     "tools/ssh.md",
-    "tools/git.md",
-    "linux/distros/proxmox/maintenance.md",
-    "linux/firewalls/opnsense.md",
     "linux/firewalls/ufw.md"
   ]
 }

@@ -1,7 +1,8 @@
 {
   "livePreview": true,
-  "showLineNumber": false,
+  "showLineNumber": true,
   "vimMode": true,
   "readableLineLength": true,
-  "strictLineBreaks": true
+  "strictLineBreaks": false,
+  "alwaysUpdateLinks": true
 }
